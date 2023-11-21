@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638361356301448710
-    m_Hash: 3866565200
+      ticks: 638361369127123899
+    m_Hash: 1854763148
   m_LockFileStatus:
     m_FilePath: C:/Users/Kiki/Documents/UNAM/semestre10/compugraf/Oculus/TemasSelenctosOculus/Oculus/Oculus/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638361356302977835
-    m_Hash: 820320311
+      ticks: 638361369131086209
+    m_Hash: 707215555
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,109 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/Kiki/Documents/UNAM/semestre10/compugraf/Oculus/TemasSelenctosOculus/Oculus/Oculus/Packages
 m_EditorVersion: 2021.3.29f1 (204d6dc9ae1c)
 m_ResolvedPackages:
+- packageId: com.meta.xr.sdk.all@59.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 59.0.0
+  source: 1
+  resolvedPath: C:\Users\Kiki\Documents\UNAM\semestre10\compugraf\Oculus\TemasSelenctosOculus\Oculus\Oculus\Library\PackageCache\com.meta.xr.sdk.all@59.0.0
+  assetPath: Packages/com.meta.xr.sdk.all
+  name: com.meta.xr.sdk.all
+  displayName: Meta XR All-in-One SDK
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://developer.oculus.com/
+  category: 
+  type: 
+  description: Meta XR All-in-One SDK is a wrapper package that depends on the latest
+    version of all Meta XR SDKs, making it easy to get started with VR development.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 59.0.0
+    compatible:
+    - 59.0.0
+    verified: 
+  dependencies:
+  - name: com.meta.xr.sdk.audio
+    version: 59.0.0
+  - name: com.meta.xr.sdk.core
+    version: 59.0.0
+  - name: com.meta.xr.sdk.interaction
+    version: 59.0.0
+  - name: com.meta.xr.sdk.interaction.ovr
+    version: 59.0.0
+  - name: com.meta.xr.sdk.platform
+    version: 59.0.0
+  - name: com.meta.xr.sdk.voice
+    version: 59.0.0
+  - name: com.meta.xr.sdk.voice.composer
+    version: 59.0.0
+  - name: com.meta.xr.sdk.voice.dictation
+    version: 59.0.0
+  - name: com.meta.xr.sdk.voice.telemetry
+    version: 59.0.0
+  - name: com.meta.xr.simulator
+    version: 59.0.0
+  resolvedDependencies:
+  - name: com.meta.xr.sdk.audio
+    version: 59.0.0
+  - name: com.meta.xr.sdk.core
+    version: 59.0.0
+  - name: com.meta.xr.sdk.interaction
+    version: 59.0.0
+  - name: com.unity.textmeshpro
+    version: 3.0.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.meta.xr.sdk.interaction.ovr
+    version: 59.0.0
+  - name: com.meta.xr.sdk.platform
+    version: 59.0.0
+  - name: com.meta.xr.sdk.voice
+    version: 59.0.0
+  - name: com.meta.xr.sdk.voice.composer
+    version: 59.0.0
+  - name: com.meta.xr.sdk.voice.dictation
+    version: 59.0.0
+  - name: com.meta.xr.sdk.voice.telemetry
+    version: 59.0.0
+  - name: com.meta.xr.simulator
+    version: 59.0.0
+  keywords:
+  - Meta
+  - VR
+  - XR
+  - Oculus
+  - SDK
+  - Quest
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 1
+  datePublishedTicks: 638352226160000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.unity.collab-proxy@2.0.5
   testable: 0
   isDirectDependency: 1
@@ -3447,6 +3550,626 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.2.4
+    nextVersion: 
+- packageId: com.meta.xr.sdk.audio@59.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 59.0.0
+  source: 1
+  resolvedPath: C:\Users\Kiki\Documents\UNAM\semestre10\compugraf\Oculus\TemasSelenctosOculus\Oculus\Oculus\Library\PackageCache\com.meta.xr.sdk.audio@59.0.0
+  assetPath: Packages/com.meta.xr.sdk.audio
+  name: com.meta.xr.sdk.audio
+  displayName: Meta XR Audio SDK
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://developer.oculus.com/
+  category: 
+  type: 
+  description: Comprehensive spatial audio features for immersive applications, including
+    a spatial audio renderer with HRTF, ambisonic audio playback, and room acoustics
+    for creating immersive environments.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    compatible:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - XR
+  - SDK
+  - Audio
+  - Meta
+  - Quest
+  - Oculus
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 1
+  datePublishedTicks: 638350623830000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.meta.xr.sdk.core@59.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 59.0.0
+  source: 1
+  resolvedPath: C:\Users\Kiki\Documents\UNAM\semestre10\compugraf\Oculus\TemasSelenctosOculus\Oculus\Oculus\Library\PackageCache\com.meta.xr.sdk.core@59.0.0
+  assetPath: Packages/com.meta.xr.sdk.core
+  name: com.meta.xr.sdk.core
+  displayName: Meta XR Core SDK
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://developer.oculus.com/
+  category: 
+  type: 
+  description: Meta XR Core SDK package provides the latest features to create immersive
+    experiences for Meta XR devices.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 59.0.0
+    compatible:
+    - 59.0.0
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - Oculus
+  - Quest
+  - XR
+  - Utilities
+  - Meta
+  - SDK
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 1
+  datePublishedTicks: 638350623810000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.meta.xr.sdk.interaction@59.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 59.0.0
+  source: 1
+  resolvedPath: C:\Users\Kiki\Documents\UNAM\semestre10\compugraf\Oculus\TemasSelenctosOculus\Oculus\Oculus\Library\PackageCache\com.meta.xr.sdk.interaction@59.0.0
+  assetPath: Packages/com.meta.xr.sdk.interaction
+  name: com.meta.xr.sdk.interaction
+  displayName: Meta XR Interaction SDK
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://developer.oculus.com/
+  category: 
+  type: 
+  description: Provides the core implementations of all the provided interaction
+    models along with necessary shaders, materials, and prefabs.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    compatible:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    verified: 
+  dependencies:
+  - name: com.unity.textmeshpro
+    version: 3.0.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.textmeshpro
+    version: 3.0.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - Interaction
+  - SDK
+  - Quest
+  - Oculus
+  - Meta
+  - XR
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 1
+  datePublishedTicks: 638350623910000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/unity-isdk-interaction-sdk-overview/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.meta.xr.sdk.interaction.ovr@59.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 59.0.0
+  source: 1
+  resolvedPath: C:\Users\Kiki\Documents\UNAM\semestre10\compugraf\Oculus\TemasSelenctosOculus\Oculus\Oculus\Library\PackageCache\com.meta.xr.sdk.interaction.ovr@59.0.0
+  assetPath: Packages/com.meta.xr.sdk.interaction.ovr
+  name: com.meta.xr.sdk.interaction.ovr
+  displayName: Meta XR Interaction SDK OVR Integration
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://developer.oculus.com/
+  category: 
+  type: 
+  description: This package allows Interaction SDK to interface with OVRPlugin. Use
+    this package if you are using OVRPlugin or the Utilities package.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    compatible:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    verified: 
+  dependencies:
+  - name: com.meta.xr.sdk.core
+    version: 59.0.0
+  - name: com.meta.xr.sdk.interaction
+    version: 59.0.0
+  resolvedDependencies:
+  - name: com.meta.xr.sdk.core
+    version: 59.0.0
+  - name: com.meta.xr.sdk.interaction
+    version: 59.0.0
+  - name: com.unity.textmeshpro
+    version: 3.0.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - XR
+  - Interaction
+  - SDK
+  - Oculus
+  - Meta
+  - OVR
+  - Quest
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 1
+  datePublishedTicks: 638350623930000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/unity-isdk-interaction-sdk-overview/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.meta.xr.sdk.platform@59.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 59.0.0
+  source: 1
+  resolvedPath: C:\Users\Kiki\Documents\UNAM\semestre10\compugraf\Oculus\TemasSelenctosOculus\Oculus\Oculus\Library\PackageCache\com.meta.xr.sdk.platform@59.0.0
+  assetPath: Packages/com.meta.xr.sdk.platform
+  name: com.meta.xr.sdk.platform
+  displayName: Meta XR Platform SDK
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://developer.oculus.com/
+  category: 
+  type: 
+  description: Use the Platform SDK to create social VR applications. Add Matchmaking,
+    DLC, In-App Purchases, Cloud Storage, and more to your experience using the individual
+    components of the SDK.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    compatible:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    verified: 
+  dependencies:
+  - name: com.meta.xr.sdk.core
+    version: 59.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.meta.xr.sdk.core
+    version: 59.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - SDK
+  - XR
+  - Platform
+  - Meta
+  - Quest
+  - Oculus
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 1
+  datePublishedTicks: 638350624020000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.meta.xr.sdk.voice@59.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 59.0.0
+  source: 1
+  resolvedPath: C:\Users\Kiki\Documents\UNAM\semestre10\compugraf\Oculus\TemasSelenctosOculus\Oculus\Oculus\Library\PackageCache\com.meta.xr.sdk.voice@59.0.0
+  assetPath: Packages/com.meta.xr.sdk.voice
+  name: com.meta.xr.sdk.voice
+  displayName: Meta - Voice SDK - Immersive Voice Commands
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://wit.ai
+  category: 
+  type: 
+  description: Voice SDK enables natural voice interactions for AR/VR apps, powered
+    by Wit.ai.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    compatible:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - Voice
+  - Meta
+  - SDK
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 1
+  datePublishedTicks: 638352226020000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.meta.xr.sdk.voice.composer@59.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 59.0.0
+  source: 1
+  resolvedPath: C:\Users\Kiki\Documents\UNAM\semestre10\compugraf\Oculus\TemasSelenctosOculus\Oculus\Oculus\Library\PackageCache\com.meta.xr.sdk.voice.composer@59.0.0
+  assetPath: Packages/com.meta.xr.sdk.voice.composer
+  name: com.meta.xr.sdk.voice.composer
+  displayName: Meta - Voice SDK - Composer
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://wit.ai
+  category: 
+  type: 
+  description: This package provides support for Composer, a feature in Wit.ai for
+    visually designing interactive conversations in a graph-based dialogue designer.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    compatible:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    verified: 
+  dependencies:
+  - name: com.meta.xr.sdk.voice
+    version: 59.0.0
+  resolvedDependencies:
+  - name: com.meta.xr.sdk.voice
+    version: 59.0.0
+  keywords:
+  - Meta
+  - SDK
+  - Voice
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 1
+  datePublishedTicks: 638352225840000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.meta.xr.sdk.voice.dictation@59.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 59.0.0
+  source: 1
+  resolvedPath: C:\Users\Kiki\Documents\UNAM\semestre10\compugraf\Oculus\TemasSelenctosOculus\Oculus\Oculus\Library\PackageCache\com.meta.xr.sdk.voice.dictation@59.0.0
+  assetPath: Packages/com.meta.xr.sdk.voice.dictation
+  name: com.meta.xr.sdk.voice.dictation
+  displayName: Meta - Voice SDK - Dictation
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://wit.ai
+  category: 
+  type: 
+  description: The Dictation addon for Voice SDK dictation  enables your app to efficiently
+    transcribe speech to text in real time with better recognition results using
+    immersive voice commands.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    compatible:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    verified: 
+  dependencies:
+  - name: com.meta.xr.sdk.voice
+    version: 59.0.0
+  resolvedDependencies:
+  - name: com.meta.xr.sdk.voice
+    version: 59.0.0
+  keywords:
+  - Meta
+  - Voice
+  - SDK
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 1
+  datePublishedTicks: 638352225920000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.meta.xr.sdk.voice.telemetry@59.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 59.0.0
+  source: 1
+  resolvedPath: C:\Users\Kiki\Documents\UNAM\semestre10\compugraf\Oculus\TemasSelenctosOculus\Oculus\Oculus\Library\PackageCache\com.meta.xr.sdk.voice.telemetry@59.0.0
+  assetPath: Packages/com.meta.xr.sdk.voice.telemetry
+  name: com.meta.xr.sdk.voice.telemetry
+  displayName: Meta - Voice SDK - Telemetry
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://wit.ai
+  category: 
+  type: 
+  description: The telemetry package provides insights into the operation of the
+    VoiceSDK and its related packages so that we can improve the experience for everyone.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    compatible:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - Meta
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 1
+  datePublishedTicks: 638352225830000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.meta.xr.simulator@59.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 59.0.0
+  source: 1
+  resolvedPath: C:\Users\Kiki\Documents\UNAM\semestre10\compugraf\Oculus\TemasSelenctosOculus\Oculus\Oculus\Library\PackageCache\com.meta.xr.simulator@59.0.0
+  assetPath: Packages/com.meta.xr.simulator
+  name: com.meta.xr.simulator
+  displayName: Meta XR Simulator
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://developer.oculus.com/
+  category: 
+  type: 
+  description: Meta XR Simulator allows developers to preview their VR changes without
+    needing a physical device.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 57.0.0
+    - 59.0.0
+    compatible:
+    - 57.0.0
+    - 59.0.0
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - Quest
+  - XrSim
+  - Oculus
+  - Meta
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 1
+  datePublishedTicks: 638351721230000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
 - packageId: com.unity.xr.legacyinputhelpers@2.1.10
   testable: 0
